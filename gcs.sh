@@ -177,7 +177,7 @@ install_v2ray(){
 					rm -f get-pip.py
 				else
 					zlib_ver='1.2.11'
-					wget "http://www.zlib.net/zlib-${zlib_ver}.tar.gz"
+					wget "https://zlib.net/fossils/zlib-${zlib_ver}.tar.gz"
 					tar -xvzf zlib-${zlib_ver}.tar.gz
 					cd zlib-${zlib_ver}
 					./configure
