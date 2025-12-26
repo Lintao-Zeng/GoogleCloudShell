@@ -144,7 +144,7 @@ install_v2ray(){
 	fi
 
 	clear
-	v2ray_url='https://multi.netlify.com/v2ray.sh'
+	v2ray_url='https://github.com/Jrohy/multi-v2ray/raw/refs/heads/master/v2ray.sh'
 	bash <(curl -sL $v2ray_url) --remove
 	check_pip(){
 		if [[ ! `pip -V|awk -F '(' '{print $2}'` =~ 'python 3' ]]; then
