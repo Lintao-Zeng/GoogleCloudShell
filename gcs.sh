@@ -73,7 +73,7 @@ fi
 echo $pw >> $(pwd)/ipadd
 
 clear
-green_font '免费撸谷歌云一键脚本' " 版本号：${sh_ver}"
+green_font '免费撸谷歌云一键脚本'
 echo -e "            \033[37m\033[01m--胖波比--\033[0m\n"
 echo -e "${Info}主机名1：  $(red_font $HOSTNAME)"
 echo -e "${Info}主机名2：  $(red_font $IP)"
