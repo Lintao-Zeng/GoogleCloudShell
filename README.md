@@ -2,7 +2,7 @@
 
 google-cloud-sdk使用管理员身份安装后会生成新的安装目录(我的是在D:\Program Files\google-cloud-sdk)，原本的google-cloud-sdk只是相当于安装包，google-cloud-sdk下的bin目录需要添加到环境变量
 
-google-cloud-sdk\bin\sdk下的putty需要替换成破解版的才能获取到ip地址，google-cloud-sdk安装完成后需要将puttySocks文件夹和plinkSocks文件夹复制到google-cloud-sdk\bin\sdk目录下
+google-cloud-sdk\bin\sdk下的putty需要替换成破解版的才能获取到ip地址，plinkSocks.sh需要使用Git运行
 
 Goole Cloud Shell第三方SSH，自我唤醒
 
